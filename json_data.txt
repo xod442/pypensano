@@ -1,0 +1,37 @@
+{
+  "kind": null,
+  "api-version": null,
+  "meta": {
+    "name": "Network111",
+    "tenant": "default",
+    "namespace": null,
+    "generation-id": null,
+    "resource-version": null,
+    "uuid": null,
+    "labels": null,
+    "self-link": null,
+    "display-name": null
+  },
+  "spec": {
+    "type": "bridged",
+    "ipv4-subnet": null,
+    "ipv4-gateway": null,
+    "ipv6-subnet": null,
+    "ipv6-gateway": null,
+    "vlan-id": 111,
+    "vxlan-vni": null,
+    "virtual-router": "dsa1",
+    "ipam-policy": null,
+    "orchestrators": [],
+    "ingress-security-policy": null,
+    "egress-security-policy": null,
+    "firewall-profile": {
+      "maximum-cps-per-distributed-services-entity": -1,
+      "maximum-sessions-per-distributed-services-entity": -1
+    },
+    "selectVlanOrIpv4": 1,
+    "selectCPS": -1,
+    "selectSessions": -1,
+    "route-import-export": null
+  }
+}
